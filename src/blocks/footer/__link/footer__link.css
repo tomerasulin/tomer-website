@@ -1,0 +1,9 @@
+.footer__link {
+  color: #ffffff;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.footer__link:first-child {
+  margin-right: 20px;
+}

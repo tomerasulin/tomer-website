@@ -1,0 +1,8 @@
+.card__title {
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  align-self: center;
+  font-size: 26px;
+  margin: 20px 0;
+}

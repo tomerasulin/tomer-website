@@ -1,0 +1,4 @@
+.footer__link-group {
+  list-style: none;
+  display: flex; 
+}

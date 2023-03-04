@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./vendor/normalize.css);
+@import url(./fonts/fonts.css); /* Fonts */
+@import url(./blocks/main/main.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__description/header__description.css);
+@import url(./blocks/header/__title/header__title.css);
+@import url(./blocks/header/__about/header__about.css);
+@import url(./blocks/header/__contact/header__contact.css);
+@import url(./blocks/logo/__header/logo__header.css);
+@import url(./blocks/about/about.css);
+@import url(./blocks/about/__avatar/about__avatar.css);
+@import url(./blocks/about/__description/about__description.css);
+@import url(./blocks/about/__title/about__title.css);
+@import url(./blocks/about/__paragraph/about__paragraph.css);
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/logo/logo.css);
+@import url(./blocks/logo/__footer/logo__footer.css);
+@import url(./blocks/footer/__text/footer__text.css);
+@import url(./blocks/footer/__groups/footer__groups.css);
+@import url(./blocks/footer/__link-group/footer__link-group.css);
+@import url(./blocks/footer/__link/footer__link.css);
+@import url(./blocks/footer/__about/footer__about.css);
+@import url(./blocks/footer/__logo/footer__logo.css);
+@import url(./blocks/projects/projects.css);
+@import url(./blocks/projects/__title/projects__title.css);
+@import url(./blocks/projects/__cards/projects__cards.css);
+@import url(./blocks/card/card.css);
+@import url(./blocks/card/__title/card__title.css);
+@import url(./blocks/card/__image/card__image.css);
+@import url(./blocks/card/__description/card__description.css);
+@import url(./blocks/card/__info/card__info.css);
+@import url(./blocks/card/__website/card__website.css);
+@import url(./blocks/card/__website-image/card__website-image.css);
