@@ -5,3 +5,9 @@
   color: #ffffff;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 426px) {
+  .header__about {
+    margin: 0;
+  }
+}

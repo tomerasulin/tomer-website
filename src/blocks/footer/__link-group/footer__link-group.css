@@ -1,4 +1,10 @@
 .footer__link-group {
   list-style: none;
-  display: flex; 
+  display: flex;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link-group {
+    padding: 0;
+  }
 }

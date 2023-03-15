@@ -1,4 +1,8 @@
 import logo from '../images/Logo.svg';
+import github from '../images/githubIcon.svg';
+import linkedin from '../images/LinkedIn.svg';
+import downloadCV from '../images/cvdownload.svg';
+import tomerCV from '../images/tomercv.pdf';
 
 const Header = () => {
   return (
@@ -8,7 +12,46 @@ const Header = () => {
         <h1 className='header__title'>Tomer Asulin</h1>
         <p className='header__about'>Web Developer</p>
       </div>
-      <div className='header__contact'></div>
+
+      <nav className='header__groups'>
+        <ul className='header__link-group'>
+          <li className='header__link'>
+            <a
+              className='header__link'
+              href={tomerCV}
+              target='_blank'
+              rel='noreferrer'
+              download
+            >
+              <img className='header__logo' src={downloadCV} alt='CV logo' />
+            </a>
+          </li>
+          <li className='header__link'>
+            <a
+              className='header__link'
+              href='https://github.com/tomerasulin'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img className='header__logo' src={github} alt='GitHub Logo' />
+            </a>
+          </li>
+          <li className='header__link'>
+            <a
+              className='header__link'
+              href='https://www.linkedin.com/in/tomerasulin/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                className='header__logo'
+                src={linkedin}
+                alt='LinkedIn Logo'
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 };

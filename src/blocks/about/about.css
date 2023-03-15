@@ -3,3 +3,9 @@
   margin: 80px 0 80px 0;
   max-width: 1440px;
 }
+
+@media screen and (max-width: 426px) {
+  .about {
+    margin: 20px 0 20px 0;
+  }
+}

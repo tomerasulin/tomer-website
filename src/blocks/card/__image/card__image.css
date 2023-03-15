@@ -1,5 +1,12 @@
 .card__image {
   width: 400px;
+  height: 180px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+
+@media screen and (max-width: 896px) {
+  .card__image {
+    width: 300px;
+  }
 }

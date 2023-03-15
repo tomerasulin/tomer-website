@@ -1,5 +1,5 @@
 import logo from '../images/Logo.svg';
-import github from '../images/GitHub.svg';
+import github from '../images/githubIcon.svg';
 import linkedin from '../images/LinkedIn.svg';
 import downloadCV from '../images/cvdownload.svg';
 import tomerCV from '../images/tomercv.pdf';

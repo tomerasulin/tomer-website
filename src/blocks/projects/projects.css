@@ -1,5 +1,12 @@
 .projects {
   display: flex;
   flex-direction: column;
-  max-width: 1440px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 896px) {
+  .projects {
+    align-items: center;
+  }
 }
