@@ -34,3 +34,13 @@
 @import url(./blocks/card/__info/card__info.css);
 @import url(./blocks/card/__website/card__website.css);
 @import url(./blocks/card/__website-image/card__website-image.css);
+@import url(./blocks/project/project.css);
+@import url(./blocks/project/__title/project__title.css);
+@import url(./blocks/project/__subtitle/project__subtitle.css);
+@import url(./blocks/project/__text/project__text.css);
+@import url(./blocks/project/__intro/project__intro.css);
+@import url(./blocks/project/__back-btn/project__back-btn.css);
+@import url(./blocks/project/__subtext/project__subtext.css);
+@import url(./blocks/project/__image/project__image.css);
+@import url(./blocks/project/__image/_hidden/project__image_hidden.css);
+@import url(./blocks/project/__image/_newsapi/project__image_newsapi.css);

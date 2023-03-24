@@ -1,0 +1,17 @@
+.project__back-btn {
+  grid-column-start: 3;
+  background: transparent url(../../../images/returnLogo.svg) center no-repeat;
+  border: none;
+  margin: 10px 0 0 250px;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .project__back-btn {
+    grid-column-start: 5;
+    margin-left: 20px;
+  }
+}
