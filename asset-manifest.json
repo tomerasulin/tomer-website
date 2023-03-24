@@ -1,13 +1,26 @@
 {
   "files": {
-    "main.css": "/tomer-website/static/css/main.bb05d71c.css",
-    "main.js": "/tomer-website/static/js/main.f38abb26.js",
+    "main.css": "/tomer-website/static/css/main.04d35d23.css",
+    "main.js": "/tomer-website/static/js/main.232aaa71.js",
     "static/js/787.21d17fcb.chunk.js": "/tomer-website/static/js/787.21d17fcb.chunk.js",
+    "static/media/newsapi9.png": "/tomer-website/static/media/newsapi9.f53d0f4d8c3bc37688b9.png",
+    "static/media/newsapi2.png": "/tomer-website/static/media/newsapi2.47ae92d4e660f42f4d32.png",
     "static/media/tomer.jpg": "/tomer-website/static/media/tomer.e68167e15e7032a0d958.jpg",
     "static/media/aroundtheus.png": "/tomer-website/static/media/aroundtheus.4cc84661eeec19de2098.png",
+    "static/media/aroundtheworld2.png": "/tomer-website/static/media/aroundtheworld2.ef4ed5a8b9fdd043e137.png",
+    "static/media/newsapi1.png": "/tomer-website/static/media/newsapi1.4458d42c20c3d2815bc9.png",
     "static/media/newsexplorer.png": "/tomer-website/static/media/newsexplorer.553b3885035c83968a95.png",
+    "static/media/aroundtheworld5.png": "/tomer-website/static/media/aroundtheworld5.002b5f6b2d0129a28858.png",
+    "static/media/aroundtheworld4.png": "/tomer-website/static/media/aroundtheworld4.0a050e8a15f225139ffc.png",
+    "static/media/aroundtheworld3.png": "/tomer-website/static/media/aroundtheworld3.ed6c605d7931e1c5bf1c.png",
     "static/media/poolGame.png": "/tomer-website/static/media/poolGame.b32f7a8946793562fcfb.png",
+    "static/media/poolgame3.png": "/tomer-website/static/media/poolgame3.8fad0d998c30cbe2d0da.png",
+    "static/media/poolgame2.png": "/tomer-website/static/media/poolgame2.aa2309ec6e7b707518e1.png",
+    "static/media/poolgame4.png": "/tomer-website/static/media/poolgame4.e1c06dcbf286297687b5.png",
+    "static/media/poolgame1.png": "/tomer-website/static/media/poolgame1.9711dbd1756e575ee5d5.png",
+    "static/media/newsapi4.png": "/tomer-website/static/media/newsapi4.c7fd9b8a2cd6a3ecd429.png",
     "static/media/TomerAsulinCV.pdf": "/tomer-website/static/media/TomerAsulinCV.b5013e40accd680e48f2.pdf",
+    "static/media/aroundtheworld1.png": "/tomer-website/static/media/aroundtheworld1.c2e13eb758a1067024da.png",
     "static/media/Comfortaa-SemiBold.woff": "/tomer-website/static/media/Comfortaa-SemiBold.ee5f5240904ec5dcda35.woff",
     "static/media/Comfortaa-Medium.woff": "/tomer-website/static/media/Comfortaa-Medium.d4963e8690a52d5a8443.woff",
     "static/media/Comfortaa-Regular.woff": "/tomer-website/static/media/Comfortaa-Regular.fb62747b9504f48a6e89.woff",
@@ -23,13 +36,13 @@
     "static/media/githubIcon.svg": "/tomer-website/static/media/githubIcon.dde553ce95043908527a4857116b1d0a.svg",
     "static/media/LinkedIn.svg": "/tomer-website/static/media/LinkedIn.67ab12f72b42f3c7e898dfa707594a4f.svg",
     "index.html": "/tomer-website/index.html",
-    "static/media/outsidePage.svg": "/tomer-website/static/media/outsidePage.3497cf5e3dd10330ee705c19fb80e312.svg",
-    "main.bb05d71c.css.map": "/tomer-website/static/css/main.bb05d71c.css.map",
-    "main.f38abb26.js.map": "/tomer-website/static/js/main.f38abb26.js.map",
+    "static/media/returnLogo.svg": "/tomer-website/static/media/returnLogo.d93077f8990406216f6f.svg",
+    "main.04d35d23.css.map": "/tomer-website/static/css/main.04d35d23.css.map",
+    "main.232aaa71.js.map": "/tomer-website/static/js/main.232aaa71.js.map",
     "787.21d17fcb.chunk.js.map": "/tomer-website/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb05d71c.css",
-    "static/js/main.f38abb26.js"
+    "static/css/main.04d35d23.css",
+    "static/js/main.232aaa71.js"
   ]
 }
