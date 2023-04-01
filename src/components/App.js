@@ -17,7 +17,9 @@ import aroundtheworld1 from '../images/aroundtheworld1.png';
 import aroundtheworld2 from '../images/aroundtheworld2.png';
 import aroundtheworld3 from '../images/aroundtheworld3.png';
 import aroundtheworld4 from '../images/aroundtheworld4.png';
-import aroundtheworld5 from '../images/aroundtheworld5.png';
+import succulent1 from '../images/SucculentShop.png';
+import succulent2 from '../images/SucculentShop1.png';
+import succulent3 from '../images/SucculentShop2.png';
 
 function App() {
   const navigate = useNavigate();
@@ -37,6 +39,30 @@ function App() {
                 <About />
                 <Projects />
               </>
+            }
+          />
+          <Route
+            path='succulentShop'
+            element={
+              <Project
+                projectName={'Succulent Shop'}
+                projectLink={'https://succulent-shop.vercel.app/'}
+                projectText={'To the Website'}
+                projectClass={'project__image_newsapi'}
+                onBack={onBack}
+                img1={succulent1}
+                img2={succulent2}
+                img3={succulent3}
+                text1={
+                  'This is a sample application that demonstrate an Ecommerce website that sell succulents.'
+                }
+                text4={
+                  'Once a user press the Shop Succulent button, he reaches the succulents catalog.'
+                }
+                text5={
+                  'Users can click on any succulent to get more information including pricing and description.'
+                }
+              />
             }
           />
           <Route
@@ -114,7 +140,6 @@ function App() {
                 img2={aroundtheworld2}
                 img3={aroundtheworld3}
                 img4={aroundtheworld4}
-                img5={aroundtheworld5}
                 text1={
                   'A weppage where users can share their photos among other users, adding, like-dislike and deleting the photos.'
                 }

@@ -1,6 +1,7 @@
 import newsapi from '../images/newsexplorer.png';
 import photoSharing from '../images/aroundtheus.png';
 import poolGame from '../images/poolGame.png';
+import succulentShop from '../images/SucculentShop.png';
 import { Link } from 'react-router-dom';
 
 const Projects = () => {
@@ -9,8 +10,22 @@ const Projects = () => {
       <h2 className='projects__title'>My Projects</h2>
       <ul className='projects__cards'>
         <li className='card'>
+          <h3 className='card__title'>Succulent Shop</h3>
+          <Link to='/succulentShop'>
+            <img
+              className='card__image'
+              src={succulentShop}
+              alt='Screenshot of Succulent Shop'
+            />
+          </Link>
+          <div className='card__info'>
+            <p className='card__description'>
+              A sample app that demonstrate an Ecommerce website to shop Succulents
+            </p>
+          </div>
+        </li>
+        <li className='card'>
           <h3 className='card__title'>Pool Game</h3>
-          {/* Video of the project*/}
           <Link to='/poolGame'>
             <img
               className='card__image'
@@ -26,7 +41,6 @@ const Projects = () => {
         </li>
         <li className='card'>
           <h3 className='card__title'>News API service</h3>
-          {/* Video of the project*/}
           <Link to='/newsapi'>
             <img
               className='card__image'
@@ -43,7 +57,6 @@ const Projects = () => {
         </li>
         <li className='card'>
           <h3 className='card__title'>Photo Sharing Web App</h3>
-          {/* Video of the project*/}
           <Link to='/aroundtheworld'>
             <img
               className='card__image'

@@ -38,13 +38,17 @@ const Project = ({
       <p className='project__subtext'>{text1}</p>
       <p className='project__subtext'>{text2}</p>
       <p className='project__subtext'>{text3}</p>
-      <img className={projectClass} src={img1} alt={projectName + 'photo'} />
+      <img className={projectClass} src={img1} alt={projectName + ' photo'} />
       <p className='project__subtext'>{text4}</p>
-      <img className={projectClass} src={img2} alt={projectName + 'photo'} />
+      <img className={projectClass} src={img2} alt={projectName + ' photo'} />
       <p className='project__subtext'>{text5}</p>
-      <img className={projectClass} src={img3} alt={projectName + 'photo'} />
+      <img className={projectClass} src={img3} alt={projectName + ' photo'} />
       <p className='project__subtext'>{text6}</p>
-      <img className={projectClass} src={img4} alt={projectName + 'photo'} />
+      {img4 === undefined ? (
+        ''
+      ) : (
+        <img className={projectClass} src={img4} alt={projectName + ' photo'} />
+      )}
     </main>
   );
 };
