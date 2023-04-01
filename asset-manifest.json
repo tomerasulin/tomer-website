@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/tomer-website/static/css/main.04d35d23.css",
-    "main.js": "/tomer-website/static/js/main.232aaa71.js",
+    "main.js": "/tomer-website/static/js/main.9e7ec879.js",
     "static/js/787.21d17fcb.chunk.js": "/tomer-website/static/js/787.21d17fcb.chunk.js",
+    "static/media/SucculentShop.png": "/tomer-website/static/media/SucculentShop.264e2425ee129e374aa5.png",
     "static/media/newsapi9.png": "/tomer-website/static/media/newsapi9.f53d0f4d8c3bc37688b9.png",
     "static/media/newsapi2.png": "/tomer-website/static/media/newsapi2.47ae92d4e660f42f4d32.png",
     "static/media/tomer.jpg": "/tomer-website/static/media/tomer.e68167e15e7032a0d958.jpg",
+    "static/media/SucculentShop1.png": "/tomer-website/static/media/SucculentShop1.1ae3ab08bce45691a504.png",
     "static/media/aroundtheus.png": "/tomer-website/static/media/aroundtheus.4cc84661eeec19de2098.png",
     "static/media/aroundtheworld2.png": "/tomer-website/static/media/aroundtheworld2.ef4ed5a8b9fdd043e137.png",
     "static/media/newsapi1.png": "/tomer-website/static/media/newsapi1.4458d42c20c3d2815bc9.png",
+    "static/media/SucculentShop2.png": "/tomer-website/static/media/SucculentShop2.d51c30011b8f3eea603d.png",
     "static/media/newsexplorer.png": "/tomer-website/static/media/newsexplorer.553b3885035c83968a95.png",
-    "static/media/aroundtheworld5.png": "/tomer-website/static/media/aroundtheworld5.002b5f6b2d0129a28858.png",
     "static/media/aroundtheworld4.png": "/tomer-website/static/media/aroundtheworld4.0a050e8a15f225139ffc.png",
     "static/media/aroundtheworld3.png": "/tomer-website/static/media/aroundtheworld3.ed6c605d7931e1c5bf1c.png",
     "static/media/poolGame.png": "/tomer-website/static/media/poolGame.b32f7a8946793562fcfb.png",
@@ -38,11 +40,11 @@
     "index.html": "/tomer-website/index.html",
     "static/media/returnLogo.svg": "/tomer-website/static/media/returnLogo.d93077f8990406216f6f.svg",
     "main.04d35d23.css.map": "/tomer-website/static/css/main.04d35d23.css.map",
-    "main.232aaa71.js.map": "/tomer-website/static/js/main.232aaa71.js.map",
+    "main.9e7ec879.js.map": "/tomer-website/static/js/main.9e7ec879.js.map",
     "787.21d17fcb.chunk.js.map": "/tomer-website/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04d35d23.css",
-    "static/js/main.232aaa71.js"
+    "static/js/main.9e7ec879.js"
   ]
 }
