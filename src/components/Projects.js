@@ -3,6 +3,13 @@ import photoSharing from '../images/aroundtheus.png';
 import poolGame from '../images/poolGame.png';
 import succulentShop from '../images/SucculentShop.png';
 import { Link } from 'react-router-dom';
+import reactlogo from '../images/react.svg';
+import nodejslogo from '../images/nodejs.svg';
+import nextjslogo from '../images/nextjs.svg';
+import mongodblogo from '../images/mongodb.svg';
+import javascriptlogo from '../images/javascript.svg';
+import htmllogo from '../images/html5.svg';
+import csslogo from '../images/css3.svg';
 
 const Projects = () => {
   return (
@@ -18,9 +25,20 @@ const Projects = () => {
               alt='Screenshot of Succulent Shop'
             />
           </Link>
+          <div className='card__logos'>
+            <img className='card__logo' src={nextjslogo} alt='nextjs logo' />
+            <img className='card__logo' src={csslogo} alt='css logo' />
+            <img className='card__logo' src={htmllogo} alt='html logo' />
+            <img
+              className='card__logo'
+              src={javascriptlogo}
+              alt='javascript logo'
+            />
+          </div>
           <div className='card__info'>
             <p className='card__description'>
-              A sample app that demonstrate an Ecommerce website to shop Succulents
+              A sample app that demonstrate an Ecommerce website to shop
+              Succulents
             </p>
           </div>
         </li>
@@ -33,6 +51,15 @@ const Projects = () => {
               alt='Screenshot of Pool Game'
             />
           </Link>
+          <div className='card__logos'>
+            <img className='card__logo' src={csslogo} alt='css logo' />
+            <img className='card__logo' src={htmllogo} alt='html logo' />
+            <img
+              className='card__logo'
+              src={javascriptlogo}
+              alt='javascript logo'
+            />
+          </div>
           <div className='card__info'>
             <p className='card__description'>
               A classic 8-ball pool game where you can play against a friend
@@ -48,6 +75,18 @@ const Projects = () => {
               alt='Screenshot of the NewsAPI webpage'
             />
           </Link>
+          <div className='card__logos'>
+            <img className='card__logo' src={reactlogo} alt='react logo' />
+            <img className='card__logo' src={csslogo} alt='css logo' />
+            <img className='card__logo' src={nodejslogo} alt='nodejs logo' />
+            <img className='card__logo' src={htmllogo} alt='html logo' />
+            <img
+              className='card__logo'
+              src={javascriptlogo}
+              alt='javascript logo'
+            />
+            <img className='card__logo' src={mongodblogo} alt='mongodb logo' />
+          </div>
           <div className='card__info'>
             <p className='card__description'>
               A service where users can search for news articles and save them
@@ -64,6 +103,18 @@ const Projects = () => {
               alt='Screenshot of the sharing web app'
             />
           </Link>
+          <div className='card__logos'>
+            <img className='card__logo' src={reactlogo} alt='react logo' />
+            <img className='card__logo' src={csslogo} alt='css logo' />
+            <img className='card__logo' src={nodejslogo} alt='nodejs logo' />
+            <img className='card__logo' src={htmllogo} alt='html logo' />
+            <img
+              className='card__logo'
+              src={javascriptlogo}
+              alt='javascript logo'
+            />
+            <img className='card__logo' src={mongodblogo} alt='mongodb logo' />
+          </div>
           <div className='card__info'>
             <p className='card__description'>
               A wep page where users can share their photos among other users,

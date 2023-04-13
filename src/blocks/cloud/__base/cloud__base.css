@@ -1,0 +1,16 @@
+.cloud__base {
+  width: 195px;
+  height: 30px;
+  background: #000;
+  position: absolute;
+  top: 110px;
+  left: -13px;
+  transform: rotate(22deg);
+  transform-origin: top left;
+}
+
+@media screen and (max-width: 768px) {
+  .cloud__base {
+    display: none;
+  }
+}

@@ -44,3 +44,9 @@
 @import url(./blocks/project/__image/project__image.css);
 @import url(./blocks/project/__image/_hidden/project__image_hidden.css);
 @import url(./blocks/project/__image/_newsapi/project__image_newsapi.css);
+@import url(./blocks/cloud/cloud.css);
+@import url(./blocks/cloud/__circle/cloud__circle.css);
+@import url(./blocks/cloud/__base/cloud__base.css);
+@import url(./blocks/cloud/__text/cloud__text.css);
+@import url(./blocks/card/__logos/card__logos.css);
+@import url(./blocks/card/__logo/card__logo.css);

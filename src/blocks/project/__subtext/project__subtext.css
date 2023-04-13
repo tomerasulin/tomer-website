@@ -7,23 +7,7 @@
   padding: 0;
 }
 
-.project__subtext:first-of-type {
-  margin-top: 30px;
-}
-
-.project__subtext:nth-child(5) {
-  margin-bottom: 30px;
-}
-
-.project__subtext:nth-child(7) {
-  margin: 30px 0 30px 30px;
-}
-
-.project__subtext:nth-child(9) {
-  margin: 30px 0 30px 30px;
-}
-
-.project__subtext:nth-child(11) {
+.project__subtext:nth-child(odd) {
   margin: 30px 0 30px 30px;
 }
 

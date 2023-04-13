@@ -17,9 +17,14 @@ import aroundtheworld1 from '../images/aroundtheworld1.png';
 import aroundtheworld2 from '../images/aroundtheworld2.png';
 import aroundtheworld3 from '../images/aroundtheworld3.png';
 import aroundtheworld4 from '../images/aroundtheworld4.png';
+import aroundtheworld6 from '../images/aroundtheworld6.png';
+import aroundtheworld7 from '../images/aroundtheworld7.png';
+import aroundtheworld8 from '../images/aroundtheworld8.png';
+import aroundtheworld9 from '../images/aroundtheworld9.png';
 import succulent1 from '../images/SucculentShop.png';
 import succulent2 from '../images/SucculentShop1.png';
 import succulent3 from '../images/SucculentShop2.png';
+import Cloud from './Cloud';
 
 function App() {
   const navigate = useNavigate();
@@ -36,6 +41,7 @@ function App() {
             path='/tomer-website'
             element={
               <>
+                <Cloud />
                 <About />
                 <Projects />
               </>
@@ -140,6 +146,10 @@ function App() {
                 img2={aroundtheworld2}
                 img3={aroundtheworld3}
                 img4={aroundtheworld4}
+                img5={aroundtheworld6}
+                img6={aroundtheworld7}
+                img7={aroundtheworld8}
+                img8={aroundtheworld9}
                 text1={
                   'A weppage where users can share their photos among other users, adding, like-dislike and deleting the photos.'
                 }
@@ -149,6 +159,13 @@ function App() {
                 text5={'A user can edit his profile - name and profession.'}
                 text6={
                   'A user can add a new place to share among other users to be seen.'
+                }
+                text7={'A user can reset his password in case he forgets it'}
+                text8={
+                  'Once the user entered his email address, A link with reset instruction sent to him'
+                }
+                text10={
+                  'After the user click the reset link inside his email box, he redirected to a form that he can type the new password'
                 }
               />
             }
