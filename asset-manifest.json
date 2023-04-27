@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tomer-website/static/css/main.1e41f3e9.css",
-    "main.js": "/tomer-website/static/js/main.c07bd91d.js",
+    "main.css": "/tomer-website/static/css/main.7b920035.css",
+    "main.js": "/tomer-website/static/js/main.387598f7.js",
     "static/js/787.21d17fcb.chunk.js": "/tomer-website/static/js/787.21d17fcb.chunk.js",
     "static/media/SucculentShop.png": "/tomer-website/static/media/SucculentShop.264e2425ee129e374aa5.png",
     "static/media/newsapi9.png": "/tomer-website/static/media/newsapi9.f53d0f4d8c3bc37688b9.png",
@@ -50,12 +50,12 @@
     "static/media/css3.svg": "/tomer-website/static/media/css3.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html5.svg": "/tomer-website/static/media/html5.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "static/media/returnLogo.svg": "/tomer-website/static/media/returnLogo.d93077f8990406216f6f.svg",
-    "main.1e41f3e9.css.map": "/tomer-website/static/css/main.1e41f3e9.css.map",
-    "main.c07bd91d.js.map": "/tomer-website/static/js/main.c07bd91d.js.map",
+    "main.7b920035.css.map": "/tomer-website/static/css/main.7b920035.css.map",
+    "main.387598f7.js.map": "/tomer-website/static/js/main.387598f7.js.map",
     "787.21d17fcb.chunk.js.map": "/tomer-website/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e41f3e9.css",
-    "static/js/main.c07bd91d.js"
+    "static/css/main.7b920035.css",
+    "static/js/main.387598f7.js"
   ]
 }
