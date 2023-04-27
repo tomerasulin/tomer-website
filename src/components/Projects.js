@@ -10,12 +10,45 @@ import mongodblogo from '../images/mongodb.svg';
 import javascriptlogo from '../images/javascript.svg';
 import htmllogo from '../images/html5.svg';
 import csslogo from '../images/css3.svg';
+import shoppingcartcover from '../images/shoppincartcover.png';
+import typescript from '../images/typescript.svg';
+import materialui from '../images/materialui.svg';
 
 const Projects = () => {
   return (
     <section className='projects'>
       <h2 className='projects__title'>My Projects</h2>
       <ul className='projects__cards'>
+        <li className='card'>
+          <h3 className='card__title'>Shopping Cart</h3>
+          <Link to='/shoppincart'>
+            <img
+              className='card__image'
+              src={shoppingcartcover}
+              alt='Screenshot of the shopping cart'
+            />
+          </Link>
+          <div className='card__logos'>
+            <img
+              className='card__logo'
+              src={typescript}
+              alt='typescript logo'
+            />
+            <img className='card__logo' src={csslogo} alt='css logo' />
+            <img
+              className='card__logo'
+              src={materialui}
+              alt='material-ui logo'
+            />
+            <img className='card__logo' src={htmllogo} alt='html logo' />
+          </div>
+          <div className='card__info'>
+            <p className='card__description'>
+              E-commerce store that each user have is own shopping cart that he
+              can add/remove products to/from the cart.
+            </p>
+          </div>
+        </li>
         <li className='card'>
           <h3 className='card__title'>Succulent Shop</h3>
           <Link to='/succulentShop'>

@@ -25,6 +25,10 @@ import succulent1 from '../images/SucculentShop.png';
 import succulent2 from '../images/SucculentShop1.png';
 import succulent3 from '../images/SucculentShop2.png';
 import Cloud from './Cloud';
+import shoppingcartcover from '../images/shoppincartcover.png';
+import shoppingcart1 from '../images/shoppingcart1.png';
+import shoppingcart2 from '../images/shoppingcart2.png';
+import shoppingcart3 from '../images/shoppingcart3.png';
 
 function App() {
   const navigate = useNavigate();
@@ -166,6 +170,34 @@ function App() {
                 }
                 text10={
                   'After the user click the reset link inside his email box, he redirected to a form that he can type the new password'
+                }
+              />
+            }
+          />
+          <Route
+            path='shoppincart'
+            element={
+              <Project
+                projectName={'Shopping Cart'}
+                projectLink={'https://tomerasulin.github.io/shopping-cart/'}
+                projectText={'To the Website'}
+                projectClass={'project__image'}
+                onBack={onBack}
+                img1={shoppingcartcover}
+                img2={shoppingcart1}
+                img3={shoppingcart2}
+                img4={shoppingcart3}
+                text1={
+                  'E-commerce store that each user have is own shopping cart that he can add/remove products to/from the cart.'
+                }
+                text4={
+                  'Once the user press the cart icon button, a popup window appears on the right hand side of the screen that shows the current shopping cart of the user.'
+                }
+                text5={
+                  'A user can scroll through the store and add items to his cart.'
+                }
+                text6={
+                  'Once the user done with his shopping, he can enter his shopping cart and see the items, quantity and total price.'
                 }
               />
             }
