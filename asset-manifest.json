@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/tomer-website/static/css/main.7b920035.css",
-    "main.js": "/tomer-website/static/js/main.387598f7.js",
+    "main.js": "/tomer-website/static/js/main.89479ce8.js",
     "static/js/787.21d17fcb.chunk.js": "/tomer-website/static/js/787.21d17fcb.chunk.js",
     "static/media/SucculentShop.png": "/tomer-website/static/media/SucculentShop.264e2425ee129e374aa5.png",
     "static/media/newsapi9.png": "/tomer-website/static/media/newsapi9.f53d0f4d8c3bc37688b9.png",
     "static/media/newsapi2.png": "/tomer-website/static/media/newsapi2.47ae92d4e660f42f4d32.png",
     "static/media/tomer.jpg": "/tomer-website/static/media/tomer.e68167e15e7032a0d958.jpg",
     "static/media/SucculentShop1.png": "/tomer-website/static/media/SucculentShop1.1ae3ab08bce45691a504.png",
+    "static/media/shoppincartcover.png": "/tomer-website/static/media/shoppincartcover.e1b4d93796938612ca8a.png",
     "static/media/aroundtheus.png": "/tomer-website/static/media/aroundtheus.4cc84661eeec19de2098.png",
     "static/media/aroundtheworld2.png": "/tomer-website/static/media/aroundtheworld2.ef4ed5a8b9fdd043e137.png",
+    "static/media/shoppingcart2.png": "/tomer-website/static/media/shoppingcart2.f36971d7ecf7964037a7.png",
     "static/media/newsapi1.png": "/tomer-website/static/media/newsapi1.4458d42c20c3d2815bc9.png",
+    "static/media/shoppingcart3.png": "/tomer-website/static/media/shoppingcart3.a677818970beafd169ef.png",
     "static/media/SucculentShop2.png": "/tomer-website/static/media/SucculentShop2.d51c30011b8f3eea603d.png",
     "static/media/newsexplorer.png": "/tomer-website/static/media/newsexplorer.553b3885035c83968a95.png",
+    "static/media/shoppingcart1.png": "/tomer-website/static/media/shoppingcart1.c8e007df22e12eda8330.png",
     "static/media/aroundtheworld4.png": "/tomer-website/static/media/aroundtheworld4.0a050e8a15f225139ffc.png",
     "static/media/aroundtheworld3.png": "/tomer-website/static/media/aroundtheworld3.ed6c605d7931e1c5bf1c.png",
     "static/media/poolGame.png": "/tomer-website/static/media/poolGame.b32f7a8946793562fcfb.png",
@@ -40,22 +44,24 @@
     "static/media/mongodb.svg": "/tomer-website/static/media/mongodb.9fa546c6a6dfddc0b151942d6f27c028.svg",
     "static/media/nodejs.svg": "/tomer-website/static/media/nodejs.543dd86690e645fec32c4c62669bf07f.svg",
     "static/media/Logo.svg": "/tomer-website/static/media/Logo.d06afad820667dcd77b483569795068a.svg",
+    "static/media/typescript.svg": "/tomer-website/static/media/typescript.c0eb7115ca99c9b18ba0baf90f610f7d.svg",
     "static/media/react.svg": "/tomer-website/static/media/react.f57b349b4d9df56c9b48c916a8d5adfb.svg",
     "static/media/nextjs.svg": "/tomer-website/static/media/nextjs.8c90b3b95d81a1e3a37b6b07bd379fa7.svg",
     "static/media/cvdownload.svg": "/tomer-website/static/media/cvdownload.dc1a50fb75e04dfebad182d0d0b40c56.svg",
     "static/media/githubIcon.svg": "/tomer-website/static/media/githubIcon.dde553ce95043908527a4857116b1d0a.svg",
     "static/media/LinkedIn.svg": "/tomer-website/static/media/LinkedIn.67ab12f72b42f3c7e898dfa707594a4f.svg",
+    "static/media/materialui.svg": "/tomer-website/static/media/materialui.734426c25d85d6f02b49b98d28ef9f03.svg",
     "static/media/javascript.svg": "/tomer-website/static/media/javascript.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
     "index.html": "/tomer-website/index.html",
     "static/media/css3.svg": "/tomer-website/static/media/css3.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html5.svg": "/tomer-website/static/media/html5.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "static/media/returnLogo.svg": "/tomer-website/static/media/returnLogo.d93077f8990406216f6f.svg",
     "main.7b920035.css.map": "/tomer-website/static/css/main.7b920035.css.map",
-    "main.387598f7.js.map": "/tomer-website/static/js/main.387598f7.js.map",
+    "main.89479ce8.js.map": "/tomer-website/static/js/main.89479ce8.js.map",
     "787.21d17fcb.chunk.js.map": "/tomer-website/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b920035.css",
-    "static/js/main.387598f7.js"
+    "static/js/main.89479ce8.js"
   ]
 }
