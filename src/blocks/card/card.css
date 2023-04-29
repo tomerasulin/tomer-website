@@ -4,6 +4,14 @@
   flex-direction: column;
   border-radius: 10px;
   position: relative;
+  box-shadow: 4px 3px 8px 0px rgb(56, 51, 38);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 4px 3px 11px 6px rgb(56, 51, 38);
+  transform: translateY(-3px);
 }
 
 @media screen and (max-width: 896px) {
