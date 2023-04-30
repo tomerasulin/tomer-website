@@ -5,10 +5,11 @@ const quotes = [
   `"One of my most productive days was throwing away 1,000 lines of code." - Ken Thompson `,
   `"Any app that can be written in JavaScript will eventually be written in JavaScript." – Atwood's Law`,
   `“There are only two kinds of programming languages: the ones people complain about and the ones nobody uses.” ― Bjarne Stroustrup`,
+  `"Our job as game developers is to put ourselves in the player's shoes. We try to see what they're seeing and support what we think they might think." – Shigeru Miyamoto`,
 ];
 
 const Cloud = () => {
-  const [quote, setQuote] = useState();
+  const [quote, setQuote] = useState(quotes[0]);
   const generator = () => {
     const index = Math.floor(Math.random() * quotes.length);
     setQuote(quotes[index]);
