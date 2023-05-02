@@ -4,6 +4,24 @@
   margin: 80px 0 80px 0;
 }
 
+@media screen and (max-width: 954px) {
+  .about {
+    margin: 200px 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    margin: 80px 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .about {
+    margin: 200px 0 20px 0;
+  }
+}
+
 @media screen and (max-width: 426px) {
   .about {
     margin: 20px 0 20px 0;
