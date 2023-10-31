@@ -7,6 +7,7 @@ const quotes = [
   `“There are only two kinds of programming languages: the ones people complain about and the ones nobody uses.” ― Bjarne Stroustrup`,
   `"Our job as game developers is to put ourselves in the player's shoes. We try to see what they're seeing and support what we think they might think." – Shigeru Miyamoto`,
   `“Engaged in the creative process we feel more alive than ever, because we are making something and not merely consuming, masters of the small reality we create. In doing this work, we are in fact creating ourselves.” —Robert Greene`,
+  `“We can only see a short distance ahead, but we can see plenty there that needs to be done.” – Alan Turing`,
 ];
 
 const Cloud = () => {

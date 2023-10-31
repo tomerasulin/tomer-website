@@ -141,7 +141,7 @@ function App() {
               <Project
                 projectName={'Photo Sharing Web App'}
                 projectLink={
-                  'https://react-around-tomer.students.nomoreparties.sbs'
+                  'https://acrosstheworld.net'
                 }
                 projectText={'To the Website'}
                 projectClass={'project__image'}
