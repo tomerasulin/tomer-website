@@ -10,7 +10,7 @@ const Header = () => {
       <img className='logo logo__header' src={logo} alt='Logo TA' />
       <div className='header__description'>
         <h1 className='header__title'>Tomer Asulin</h1>
-        <p className='header__about'>Web Developer</p>
+        <p className='header__about'>Software Developer</p>
       </div>
 
       <nav className='header__groups'>

@@ -2,7 +2,6 @@ import newsapi from '../images/newsexplorer.png';
 import photoSharing from '../images/aroundtheus.png';
 import poolGame from '../images/poolGame.png';
 import succulentShop from '../images/SucculentShop.png';
-import { Link } from 'react-router-dom';
 import reactlogo from '../images/react.svg';
 import nodejslogo from '../images/nodejs.svg';
 import nextjslogo from '../images/nextjs.svg';
@@ -21,13 +20,17 @@ const Projects = () => {
       <ul className='projects__cards'>
         <li className='card'>
           <h3 className='card__title'>Shopping Cart</h3>
-          <Link to='/shoppincart'>
+          <a
+            href='https://tomerasulin.github.io/shopping-cart/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img
               className='card__image'
               src={shoppingcartcover}
               alt='Screenshot of the shopping cart'
             />
-          </Link>
+          </a>
           <div className='card__logos'>
             <img
               className='card__logo'
@@ -51,13 +54,17 @@ const Projects = () => {
         </li>
         <li className='card'>
           <h3 className='card__title'>Succulent Shop</h3>
-          <Link to='/succulentShop'>
+          <a
+            href='https://succulent-shop.vercel.app/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img
               className='card__image'
               src={succulentShop}
               alt='Screenshot of Succulent Shop'
             />
-          </Link>
+          </a>
           <div className='card__logos'>
             <img className='card__logo' src={nextjslogo} alt='nextjs logo' />
             <img className='card__logo' src={csslogo} alt='css logo' />
@@ -77,13 +84,17 @@ const Projects = () => {
         </li>
         <li className='card'>
           <h3 className='card__title'>Pool Game</h3>
-          <Link to='/poolGame'>
+          <a
+            href='https://tomerasulin.github.io/pool-game/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img
               className='card__image'
               src={poolGame}
               alt='Screenshot of Pool Game'
             />
-          </Link>
+          </a>
           <div className='card__logos'>
             <img className='card__logo' src={csslogo} alt='css logo' />
             <img className='card__logo' src={htmllogo} alt='html logo' />
@@ -101,13 +112,17 @@ const Projects = () => {
         </li>
         <li className='card'>
           <h3 className='card__title'>News API service</h3>
-          <Link to='/newsapi'>
+          <a
+            href='https://newsexplorerta.com/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img
               className='card__image'
               src={newsapi}
               alt='Screenshot of the NewsAPI webpage'
             />
-          </Link>
+          </a>
           <div className='card__logos'>
             <img className='card__logo' src={reactlogo} alt='react logo' />
             <img className='card__logo' src={csslogo} alt='css logo' />
@@ -129,13 +144,17 @@ const Projects = () => {
         </li>
         <li className='card'>
           <h3 className='card__title'>Photo Sharing Web App</h3>
-          <Link to='/aroundtheworld'>
+          <a
+            href='https://acrosstheworld.net/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img
               className='card__image'
               src={photoSharing}
               alt='Screenshot of the sharing web app'
             />
-          </Link>
+          </a>
           <div className='card__logos'>
             <img className='card__logo' src={reactlogo} alt='react logo' />
             <img className='card__logo' src={csslogo} alt='css logo' />

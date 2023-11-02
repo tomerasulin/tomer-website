@@ -7,11 +7,7 @@ const About = () => {
       <div className='about__description'>
         <h2 className='about__title'>Tomer Asulin</h2>
         <p className='about__paragraph'>
-          Hey There, I'm Tomer and I'm a web developer.
-        </p>
-        <p className='about__paragraph'>
-          I'm currently work at WebHelp as a BigData specialist on Google Cloud
-          Platform.
+          Hey There, I'm Tomer and I'm a Software developer.
         </p>
         <p className='about__paragraph'>
           I'm Passionate software developer, with a can-do approach. I am a
